@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/orange-o-telecoms/static/css/main.f83e1da7.css",
-    "main.js": "/orange-o-telecoms/static/js/main.40f0630a.js",
-    "static/css/453.5aa8d417.chunk.css": "/orange-o-telecoms/static/css/453.5aa8d417.chunk.css",
-    "static/js/453.bcd6eab1.chunk.js": "/orange-o-telecoms/static/js/453.bcd6eab1.chunk.js",
-    "static/css/566.5f08c83a.chunk.css": "/orange-o-telecoms/static/css/566.5f08c83a.chunk.css",
-    "static/js/566.34c15f1f.chunk.js": "/orange-o-telecoms/static/js/566.34c15f1f.chunk.js",
-    "static/css/673.da739714.chunk.css": "/orange-o-telecoms/static/css/673.da739714.chunk.css",
-    "static/js/673.87cad6ab.chunk.js": "/orange-o-telecoms/static/js/673.87cad6ab.chunk.js",
-    "static/css/147.19b2cf5e.chunk.css": "/orange-o-telecoms/static/css/147.19b2cf5e.chunk.css",
-    "static/js/147.141170e9.chunk.js": "/orange-o-telecoms/static/js/147.141170e9.chunk.js",
-    "static/css/699.3d2b6051.chunk.css": "/orange-o-telecoms/static/css/699.3d2b6051.chunk.css",
-    "static/js/699.0b69baef.chunk.js": "/orange-o-telecoms/static/js/699.0b69baef.chunk.js",
+    "main.css": "/orange-o-telecoms/static/css/main.9f6b0ddf.css",
+    "main.js": "/orange-o-telecoms/static/js/main.a0bc9033.js",
+    "static/css/453.01b0b8f0.chunk.css": "/orange-o-telecoms/static/css/453.01b0b8f0.chunk.css",
+    "static/js/453.b83f2317.chunk.js": "/orange-o-telecoms/static/js/453.b83f2317.chunk.js",
+    "static/css/566.f32f21a3.chunk.css": "/orange-o-telecoms/static/css/566.f32f21a3.chunk.css",
+    "static/js/566.334216d9.chunk.js": "/orange-o-telecoms/static/js/566.334216d9.chunk.js",
+    "static/css/673.046a4bfb.chunk.css": "/orange-o-telecoms/static/css/673.046a4bfb.chunk.css",
+    "static/js/673.d67a15a8.chunk.js": "/orange-o-telecoms/static/js/673.d67a15a8.chunk.js",
+    "static/css/147.13b3b05f.chunk.css": "/orange-o-telecoms/static/css/147.13b3b05f.chunk.css",
+    "static/js/147.f541d57f.chunk.js": "/orange-o-telecoms/static/js/147.f541d57f.chunk.js",
+    "static/css/699.4a5c21ef.chunk.css": "/orange-o-telecoms/static/css/699.4a5c21ef.chunk.css",
+    "static/js/699.34b423ec.chunk.js": "/orange-o-telecoms/static/js/699.34b423ec.chunk.js",
     "index.html": "/orange-o-telecoms/index.html"
   },
   "entrypoints": [
-    "static/css/main.f83e1da7.css",
-    "static/js/main.40f0630a.js"
+    "static/css/main.9f6b0ddf.css",
+    "static/js/main.a0bc9033.js"
   ]
 }
