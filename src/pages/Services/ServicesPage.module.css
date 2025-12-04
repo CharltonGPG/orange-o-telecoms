@@ -1,0 +1,101 @@
+.servicesPage {
+  padding: 3rem 0;
+}
+
+.pageHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.pageHeader h1 {
+  font-size: 3rem;
+  color: var(--blue-dark);
+  margin-bottom: 1rem;
+}
+
+.pageHeader p {
+  font-size: 1.2rem;
+  color: var(--gray-dark);
+  opacity: 0.8;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.serviceCard {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s;
+}
+
+.serviceCard:hover {
+  border-color: var(--orange-primary);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.serviceCard h3 {
+  color: var(--blue-dark);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.serviceDescription {
+  color: var(--gray-dark);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.serviceSpeed {
+  color: var(--orange-primary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.servicePrice {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  margin-bottom: 1.5rem;
+}
+
+.serviceFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.serviceFeatures li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.serviceFeatures li:before {
+  content: '✓';
+  color: var(--success);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.serviceButton {
+  background: var(--orange-primary);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.serviceButton:hover {
+  background: var(--orange-dark);
+}

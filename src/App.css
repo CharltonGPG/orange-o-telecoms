@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+/* Global CSS Variables */
+:root {
+  /* Orangeo Telecom Brand Colors */
+  --orange-primary: #FF6600;
+  --orange-light: #FF9933;
+  --orange-dark: #CC5200;
+  --blue-dark: #003366;
+  --blue-light: #0066CC;
+  --gray-light: #F5F5F5;
+  --gray-dark: #333333;
+  --success: #00CC66;
+  
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--gray-dark);
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  cursor: pointer;
+  font-family: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
 }
+
+.text-orange { color: var(--orange-primary); }
+.text-blue { color: var(--blue-dark); }
+.bg-orange { background-color: var(--orange-primary); }
+.bg-blue { background-color: var(--blue-dark); }

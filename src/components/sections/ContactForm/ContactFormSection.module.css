@@ -1,0 +1,109 @@
+.contactSection {
+  padding: 5rem 0;
+  background-color: var(--blue-dark);
+  color: white;
+}
+
+.contactContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.contactInfo h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.contactInfo p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactDetail h3 {
+  color: var(--orange-primary);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactDetail p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.contactForm {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  color: var(--gray-dark);
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.875rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--orange-primary);
+}
+
+.formGroup input.error,
+.formGroup textarea.error {
+  border-color: #ff4444;
+}
+
+.errorText {
+  color: #ff4444;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.submitButton {
+  width: 100%;
+}
+
+.successMessage {
+  text-align: center;
+  padding: 3rem;
+}
+
+.successMessage h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.successMessage p {
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 992px) {
+  .contactContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
