@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/orange-o-telecoms/static/css/main.3693c47e.css",
+    "main.js": "/orange-o-telecoms/static/js/main.1998ee95.js",
+    "index.html": "/orange-o-telecoms/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.3693c47e.css",
+    "static/js/main.1998ee95.js"
+  ]
+}
