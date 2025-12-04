@@ -1,4 +1,5 @@
-import React from 'react';
+// Footer.jsx
+
 import { Link } from 'react-router-dom';
 // import { ROUTES } from '../../../routes';
 import { ROUTES } from '@/routes';

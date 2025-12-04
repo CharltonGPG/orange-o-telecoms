@@ -1,3 +1,5 @@
+// helpers.js
+
 // Format phone number
 export const formatPhoneNumber = (phone) => {
   if (!phone) return '';

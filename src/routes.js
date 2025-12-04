@@ -1,7 +1,12 @@
+// routes.js
+
 export const ROUTES = {
   HOME: '/',
   SERVICES: '/services',
-  COVERAGE: '/coverage',
-  BUSINESS: '/business',
+  PARTNERSHIPS: '/partnerships',
+  PROJECTS: '/projects',
   CONTACT: '/contact',
+  LEADERSHIP: '/about/leadership',
+  TRAINING: '/training',
+  CAREERS: '/careers'
 };

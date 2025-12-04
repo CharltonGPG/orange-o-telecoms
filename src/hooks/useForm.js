@@ -1,3 +1,5 @@
+// useForm.js
+
 import { useState } from 'react';
 
 export const useForm = (initialValues, validate) => {
@@ -12,7 +14,6 @@ export const useForm = (initialValues, validate) => {
       [name]: value,
     });
     
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors({
         ...errors,

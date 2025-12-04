@@ -1,4 +1,5 @@
-import React from 'react';
+// Layout.jsx
+
 import Header from './layout/Header/Header';
 import Footer from './layout/Footer/Footer';
 import styles from './Layout.module.css';

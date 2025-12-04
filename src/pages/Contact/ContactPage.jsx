@@ -1,4 +1,5 @@
-import React from 'react';
+// ContactPage.jsx
+
 import ContactFormSection from '@components/sections/ContactForm/ContactFormSection';
 import { CONTACT_INFO } from '@constants';
 import styles from './ContactPage.module.css';

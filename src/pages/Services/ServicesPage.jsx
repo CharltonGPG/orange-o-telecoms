@@ -1,32 +1,82 @@
-import React from 'react';
-import Card from '@components/common/Card/Card';
-import { SERVICES } from '@constants';
+// ServicesPage.jsx
+
+import { SERVICES } from '@/constants';
 import styles from './ServicesPage.module.css';
+import Button from '@/components/common/Button/Button';
 
 const ServicesPage = () => {
   return (
     <div className={styles.servicesPage}>
       <div className="container">
         <div className={styles.pageHeader}>
-          <h1>Our Services</h1>
-          <p>Choose the perfect internet solution for your needs</p>
+          <h1>Our Comprehensive Solutions</h1>
+          <p>End-to-end infrastructure services for the 4IR economy</p>
+        </div>
+
+        <div className={styles.introSection}>
+          <p className={styles.introText}>
+            Orangeo Telecoms delivers high-quality connectivity infrastructure across the full value chain. 
+            From network design to operations and monetization, we provide complete solutions for 
+            businesses, institutions, and communities.
+          </p>
         </div>
 
         <div className={styles.servicesGrid}>
           {SERVICES.map((service) => (
-            <Card key={service.id} className={styles.serviceCard}>
-              <h3>{service.title}</h3>
+            <div key={service.id} className={styles.serviceCard}>
+              <div className={styles.serviceHeader}>
+                <div className={styles.serviceIcon}>{service.icon}</div>
+                <h3>{service.title}</h3>
+              </div>
               <p className={styles.serviceDescription}>{service.description}</p>
-              <div className={styles.serviceSpeed}>{service.speed}</div>
-              <div className={styles.servicePrice}>{service.price}</div>
+              
               <ul className={styles.serviceFeatures}>
-                {service.features.map((feature, index) => (
-                  <li key={index}>{feature}</li>
+                {service.items.map((item, index) => (
+                  <li key={index}>
+                    <span className={styles.checkmark}>✓</span>
+                    {item}
+                  </li>
                 ))}
               </ul>
-              <button className={styles.serviceButton}>Learn More</button>
-            </Card>
+              
+              <Button 
+                to="/contact" 
+                variant="outline" 
+                className={styles.serviceButton}
+              >
+                Request Consultation
+              </Button>
+            </div>
           ))}
+        </div>
+
+        <div className={styles.fullChainSection}>
+          <h2>Full Value Chain Coverage</h2>
+          <div className={styles.chainSteps}>
+            <div className={styles.chainStep}>
+              <div className={styles.stepNumber}>1</div>
+              <h4>Network Design & Engineering</h4>
+              <p>Strategic planning and technical design</p>
+            </div>
+            <div className={styles.chainArrow}>→</div>
+            <div className={styles.chainStep}>
+              <div className={styles.stepNumber}>2</div>
+              <h4>Deployment & Installation</h4>
+              <p>Aerial, underground & wireless implementation</p>
+            </div>
+            <div className={styles.chainArrow}>→</div>
+            <div className={styles.chainStep}>
+              <div className={styles.stepNumber}>3</div>
+              <h4>Operations & Maintenance</h4>
+              <p>24/7 monitoring and proactive maintenance</p>
+            </div>
+            <div className={styles.chainArrow}>→</div>
+            <div className={styles.chainStep}>
+              <div className={styles.stepNumber}>4</div>
+              <h4>Monetization & Support</h4>
+              <p>Revenue generation and ongoing support</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
