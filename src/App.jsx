@@ -7,11 +7,12 @@ const ServicesPage = lazy(() => import("@/pages/Services/ServicesPage"));
 const PartnershipsPage = lazy(() => import("@/pages/Partnerships/PartnershipsPage"));
 const ProjectsPage = lazy(() => import("@/pages/Projects/ProjectsPage"));
 const ContactPage = lazy(() => import("@/pages/Contact/ContactPage"));
+import Layout from "@components/Layout";
 import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/orange-o-telecoms">
       <Layout>
         <Suspense fallback={<div>Loading…</div>}>
           <Routes>
