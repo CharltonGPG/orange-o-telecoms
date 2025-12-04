@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3693c47e.css",
-    "main.js": "/static/js/main.118efd97.js",
-    "index.html": "/index.html"
+    "main.css": "/orange-o-telecoms/static/css/main.3693c47e.css",
+    "main.js": "/orange-o-telecoms/static/js/main.118efd97.js",
+    "index.html": "/orange-o-telecoms/index.html"
   },
   "entrypoints": [
     "static/css/main.3693c47e.css",
