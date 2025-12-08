@@ -18,7 +18,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/CharltonGPG/orange-o-telecoms.git"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
@@ -37,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://CharltonGPG.github.io/orange-o-telecoms/"
+  "homepage": "https://charltongpg.github.io/orange-o-telecoms"
 }
