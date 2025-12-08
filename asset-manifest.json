@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/orange-o-telecoms/static/css/main.9f6b0ddf.css",
-    "main.js": "/orange-o-telecoms/static/js/main.a2b6703d.js",
-    "static/css/453.01b0b8f0.chunk.css": "/orange-o-telecoms/static/css/453.01b0b8f0.chunk.css",
-    "static/js/453.b83f2317.chunk.js": "/orange-o-telecoms/static/js/453.b83f2317.chunk.js",
-    "static/css/566.f32f21a3.chunk.css": "/orange-o-telecoms/static/css/566.f32f21a3.chunk.css",
-    "static/js/566.334216d9.chunk.js": "/orange-o-telecoms/static/js/566.334216d9.chunk.js",
-    "static/css/673.046a4bfb.chunk.css": "/orange-o-telecoms/static/css/673.046a4bfb.chunk.css",
-    "static/js/673.d67a15a8.chunk.js": "/orange-o-telecoms/static/js/673.d67a15a8.chunk.js",
+    "main.css": "/orange-o-telecoms/static/css/main.910edd79.css",
+    "main.js": "/orange-o-telecoms/static/js/main.508b058e.js",
+    "static/css/631.865d4f26.chunk.css": "/orange-o-telecoms/static/css/631.865d4f26.chunk.css",
+    "static/js/631.01b8b9e3.chunk.js": "/orange-o-telecoms/static/js/631.01b8b9e3.chunk.js",
+    "static/css/764.932e8a82.chunk.css": "/orange-o-telecoms/static/css/764.932e8a82.chunk.css",
+    "static/js/764.4cb58bc4.chunk.js": "/orange-o-telecoms/static/js/764.4cb58bc4.chunk.js",
     "static/css/147.13b3b05f.chunk.css": "/orange-o-telecoms/static/css/147.13b3b05f.chunk.css",
-    "static/js/147.f541d57f.chunk.js": "/orange-o-telecoms/static/js/147.f541d57f.chunk.js",
+    "static/js/147.93b6c63a.chunk.js": "/orange-o-telecoms/static/js/147.93b6c63a.chunk.js",
     "static/css/699.4a5c21ef.chunk.css": "/orange-o-telecoms/static/css/699.4a5c21ef.chunk.css",
     "static/js/699.34b423ec.chunk.js": "/orange-o-telecoms/static/js/699.34b423ec.chunk.js",
     "index.html": "/orange-o-telecoms/index.html"
   },
   "entrypoints": [
-    "static/css/main.9f6b0ddf.css",
-    "static/js/main.a2b6703d.js"
+    "static/css/main.910edd79.css",
+    "static/js/main.508b058e.js"
   ]
 }
