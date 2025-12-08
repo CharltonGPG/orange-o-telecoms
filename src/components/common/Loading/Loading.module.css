@@ -1,0 +1,203 @@
+.loadingContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a1931 0%, #1a1a2e 100%);
+  color: white;
+  padding: 2rem;
+}
+
+.loadingContent {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.logoContainer {
+  margin-bottom: 3rem;
+}
+
+.logoCircle {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1.5rem;
+  position: relative;
+}
+
+.logoInner {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #FF6600 0%, #FF9933 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: pulse 2s infinite;
+}
+
+.logoInner::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(135deg, #FF6600 0%, #FF9933 100%);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.4;
+  animation: pulseOuter 2s infinite;
+}
+
+.logoText {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.logoTitle {
+  font-size: 1.75rem;
+  color: white;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.loadingAnimation {
+  margin-bottom: 3rem;
+}
+
+.signalBars {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 60px;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
+
+.bar {
+  width: 12px;
+  background: linear-gradient(to top, #FF6600, #FF9933);
+  border-radius: 6px 6px 0 0;
+}
+
+.bar1 {
+  height: 20px;
+  animation: barAnimation 1.2s infinite 0.1s;
+}
+
+.bar2 {
+  height: 30px;
+  animation: barAnimation 1.2s infinite 0.2s;
+}
+
+.bar3 {
+  height: 40px;
+  animation: barAnimation 1.2s infinite 0.3s;
+}
+
+.bar4 {
+  height: 50px;
+  animation: barAnimation 1.2s infinite 0.4s;
+}
+
+.bar5 {
+  height: 60px;
+  animation: barAnimation 1.2s infinite 0.5s;
+}
+
+.loadingText {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.progressContainer {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.progressBar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  width: 30%;
+  background: linear-gradient(90deg, #FF6600, #FF9933);
+  border-radius: 3px;
+  animation: progressAnimation 2s infinite ease-in-out;
+}
+
+.loadingFooter {
+  margin-top: 2rem;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes pulseOuter {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.2;
+  }
+}
+
+@keyframes barAnimation {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scaleY(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes progressAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(350%);
+  }
+}
+
+@media (max-width: 768px) {
+  .logoCircle {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .logoText {
+    font-size: 2.5rem;
+  }
+  
+  .logoTitle {
+    font-size: 1.5rem;
+  }
+}

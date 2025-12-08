@@ -1,0 +1,63 @@
+/* ContactPage.module.css */
+
+.contactPage {
+  padding: 3rem 0 0;
+}
+
+.pageHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.pageHeader h1 {
+  font-size: 3rem;
+  color: var(--blue-dark);
+  margin-bottom: 1rem;
+}
+
+.pageHeader p {
+  font-size: 1.2rem;
+  color: var(--gray-dark);
+  opacity: 0.8;
+}
+
+.contactMethods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contactMethod {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.contactMethod:hover {
+  transform: translateY(-5px);
+}
+
+.methodIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contactMethod h3 {
+  color: var(--blue-dark);
+  margin-bottom: 1rem;
+}
+
+.contactMethod p {
+  margin-bottom: 0.5rem;
+  color: var(--gray-dark);
+}
+
+.methodNote {
+  font-size: 0.875rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
