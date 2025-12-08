@@ -1,12 +1,12 @@
-// ServicesPage.jsx
+// SolutionsPage.jsx
 
-import { SERVICES } from '@/constants';
-import styles from './ServicesPage.module.css';
+import { SOLUTIONS } from '@/constants';
+import styles from './SolutionsPage.module.css';
 import Button from '@/components/common/Button/Button';
 
-const ServicesPage = () => {
+const SolutionsPage = () => {
   return (
-    <div className={styles.servicesPage}>
+    <div className={styles.solutionsPage}>
       <div className="container">
         <div className={styles.pageHeader}>
           <h1>Our Comprehensive Solutions</h1>
@@ -17,12 +17,12 @@ const ServicesPage = () => {
           <p className={styles.introText}>
             Orangeo Telecoms delivers high-quality connectivity infrastructure across the full value chain. 
             From network design to operations and monetization, we provide complete solutions for 
-            businesses, institutions, and communities.
+            businesses, institutions, and student residential communities.
           </p>
         </div>
 
-        <div className={styles.servicesGrid}>
-          {SERVICES.map((service) => (
+        <div className={styles.solutionsGrid}>
+          {SOLUTIONS.map((service) => (
             <div key={service.id} className={styles.serviceCard}>
               <div className={styles.serviceHeader}>
                 <div className={styles.serviceIcon}>{service.icon}</div>
@@ -83,4 +83,4 @@ const ServicesPage = () => {
   );
 };
 
-export default ServicesPage;
+export default SolutionsPage;

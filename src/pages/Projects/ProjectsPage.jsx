@@ -15,10 +15,6 @@ const ProjectsPage = () => {
 
         <div className={styles.statsSection}>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>9,000+</span>
-            <span className={styles.statLabel}>Homes Passed</span>
-          </div>
-          <div className={styles.stat}>
             <span className={styles.statNumber}>100%</span>
             <span className={styles.statLabel}>Client Satisfaction</span>
           </div>

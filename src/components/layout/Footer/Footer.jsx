@@ -24,7 +24,7 @@ const Footer = () => {
             <h4 className={styles.footerTitle}>Quick Links</h4>
             <ul className={styles.footerLinks}>
               <li><Link to={ROUTES.HOME}>Home</Link></li>
-              <li><Link to={ROUTES.SERVICES}>Services</Link></li>
+              <li><Link to={ROUTES.SOLUTIONS}>Solutions</Link></li>
               <li><Link to={ROUTES.COVERAGE}>Coverage Map</Link></li>
               <li><Link to={ROUTES.BUSINESS}>Business Solutions</Link></li>
               <li><Link to={ROUTES.CONTACT}>Contact Us</Link></li>

@@ -1,20 +1,20 @@
-// ServicesSection.jsx
+// SolutionsSection.jsx
 
-import { SERVICES } from '@/constants';
-import styles from './ServicesSection.module.css';
+import { SOLUTIONS } from '@/constants';
+import styles from './SolutionsSection.module.css';
 import Button from '@/components/common/Button/Button';
 
-const ServicesSection = () => {
+const SolutionsSection = () => {
   return (
-    <section className={styles.servicesSection}>
+    <section className={styles.solutionsSection}>
       <div className="container">
         <div className={styles.sectionHeader}>
           <h2>Our Comprehensive Solutions</h2>
           <p>End-to-end infrastructure services across the telecommunications value chain</p>
         </div>
         
-        <div className={styles.servicesGrid}>
-          {SERVICES.map((service) => (
+        <div className={styles.solutionsGrid}>
+          {SOLUTIONS.map((service) => (
             <div key={service.id} className={styles.serviceCard}>
               <div className={styles.serviceIcon}>{service.icon}</div>
               <h3 className={styles.serviceTitle}>{service.title}</h3>
@@ -72,4 +72,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default SolutionsSection;

@@ -1,6 +1,6 @@
-/* ServicesSection.module.css */
+/* SolutionsSection.module.css */
 
-.servicesSection {
+.solutionsSection {
   padding: 5rem 0;
   background-color: #f8f9fa;
 }
@@ -24,7 +24,7 @@
   margin: 0 auto;
 }
 
-.servicesGrid {
+.solutionsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -162,7 +162,7 @@
 }
 
 @media (max-width: 768px) {
-  .servicesSection {
+  .solutionsSection {
     padding: 3rem 0;
   }
   
@@ -170,7 +170,7 @@
     font-size: 2rem;
   }
   
-  .servicesGrid {
+  .solutionsGrid {
     grid-template-columns: 1fr;
   }
   

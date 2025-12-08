@@ -1,6 +1,6 @@
-/* ServicesPage.module.css */
+/* SolutionsPage.module.css */
 
-.servicesPage {
+.solutionsPage {
   padding: 3rem 0;
 }
 
@@ -39,7 +39,7 @@
   margin: 0;
 }
 
-.servicesGrid {
+.solutionsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -194,7 +194,7 @@
     font-size: 2.5rem;
   }
   
-  .servicesGrid {
+  .solutionsGrid {
     grid-template-columns: 1fr;
   }
 }

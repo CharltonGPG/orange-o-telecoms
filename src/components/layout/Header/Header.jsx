@@ -13,8 +13,7 @@ const Header = () => {
 
   const navItems = [
     { path: ROUTES.HOME, label: "Home" },
-    { path: ROUTES.SERVICES, label: "Solutions" },
-    { path: ROUTES.PARTNERSHIPS, label: "Partnerships" },
+    { path: ROUTES.SOLUTIONS, label: "Solutions" },
     { path: ROUTES.PROJECTS, label: "Projects" },
     { path: ROUTES.CONTACT, label: "Contact" },
   ];
@@ -49,11 +48,6 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <div className={styles.ctaButtons}>
-              <Button variant="outline" size="small" to={ROUTES.PARTNERSHIPS}>
-                Partner With Us
-              </Button>
-            </div>
           </nav>
         </div>
       </div>

@@ -31,15 +31,7 @@ const Hero = () => {
           
           <div className={styles.ctaContainer}>
             <Button 
-              to="/partnerships" 
-              variant="primary" 
-              size="large"
-              className={styles.ctaButton}
-            >
-              Partner With Us
-            </Button>
-            <Button 
-              to="/services" 
+              to="/solutions" 
               variant="outline" 
               size="large"
               className={styles.ctaButton}
@@ -49,10 +41,6 @@ const Hero = () => {
           </div>
           
           <div className={styles.stats}>
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>9,000+</span>
-              <span className={styles.statLabel}>Homes Passed</span>
-            </div>
             <div className={styles.stat}>
               <span className={styles.statNumber}>100%</span>
               <span className={styles.statLabel}>Black-Owned</span>
