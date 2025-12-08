@@ -6,6 +6,5 @@ export const ROUTES = {
   PROJECTS: '/projects',
   CONTACT: '/contact',
   LEADERSHIP: '/about/leadership',
-  TRAINING: '/training',
   CAREERS: '/careers'
 };
