@@ -57,20 +57,6 @@ export const SOLUTIONS = [
   },
 ];
 
-export const PARTNERSHIPS = [
-  {
-    id: 1,
-    title: "Fibre Optic Training Lab",
-    description: "Partnership with UIGC & University of Venda",
-    highlights: [
-      "Certified fibre optic training programs",
-      "Skills incubation for Vhembe district communities",
-      "Addressing South Africa's critical fibre skills shortage",
-      "Export-ready talent development",
-      "Practical mentorship and industry exposure",
-    ],
-  },
-];
 
 export const LEADERSHIP_TEAM = [
   {
