@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orange-o-telecoms/static/css/main.910edd79.css",
-    "main.js": "/orange-o-telecoms/static/js/main.508b058e.js",
+    "main.js": "/orange-o-telecoms/static/js/main.a3ccd2dd.js",
     "static/css/631.865d4f26.chunk.css": "/orange-o-telecoms/static/css/631.865d4f26.chunk.css",
     "static/js/631.01b8b9e3.chunk.js": "/orange-o-telecoms/static/js/631.01b8b9e3.chunk.js",
     "static/css/764.932e8a82.chunk.css": "/orange-o-telecoms/static/css/764.932e8a82.chunk.css",
@@ -14,6 +14,6 @@
   },
   "entrypoints": [
     "static/css/main.910edd79.css",
-    "static/js/main.508b058e.js"
+    "static/js/main.a3ccd2dd.js"
   ]
 }
