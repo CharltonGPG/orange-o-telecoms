@@ -12,6 +12,33 @@
     <title>Orangeo Telecoms</title>
   </head>
   <body>
+    <script>
+      (function() {
+        var redirect = sessionStorage.getItem('gh-pages-redirect');
+        
+        if (redirect) {
+          sessionStorage.removeItem('gh-pages-redirect');
+          
+          var checkReactLoaded = setInterval(function() {
+            if (window.reactAppReady) {
+              clearInterval(checkReactLoaded);
+              
+              if (window.ReactRouter && window.ReactRouter.navigate) {
+                window.ReactRouter.navigate(redirect, { replace: true });
+              } else {
+                window.location.replace('/orange-o-telecoms' + redirect);
+              }
+            }
+          }, 50);
+          
+          setTimeout(function() {
+            clearInterval(checkReactLoaded);
+            window.location.replace('/orange-o-telecoms' + redirect);
+          }, 3000);
+        }
+      })();
+    </script>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
