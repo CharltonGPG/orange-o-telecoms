@@ -122,29 +122,20 @@ export const PROJECTS = [
     id: 1,
     title: "Educational Campus Security",
     description: "CCTV and surveillance solutions for institutions",
-    location: "Various educational institutions",
+    location: "Gauteng, Free State, Limpopo",
     status: "Ongoing",
     highlights: ["Student safety focus", "Multi-campus deployment", "Remote monitoring"],
   },
   {
     id: 2,
-    title: "Student Residential Network",
-    description:
-      "Connectivity and security infrastructure for off-campus student housing in partnership with UIGC Connect",
-    location: "Various Student Accommodations",
+    title: "Managed Student WI-FI network",
+    description: "Connectivity and security infrastructure for off-campus student housing",
+    location: "Gauteng, Free State, Limpopo",
     status: "Ongoing",
     highlights: [
       "Fibre-to-the-Residence (FTR) deployment",
       "Integrated security surveillance",
-      "UIGC Connect technical partnership",
-      "Revenue-sharing operational model",
       "Pre-academic year infrastructure rollout",
     ],
-    details: {
-      partnership: "UIGC Connect Technical Partnership",
-      scope: "External student residences in Thohoyandou",
-      model: "70/30 revenue split after operational expenses",
-      timeline: "Full deployment before 2025 academic year",
-    },
   },
 ];
